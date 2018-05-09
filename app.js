@@ -8,7 +8,7 @@ app.use(express.static("public"));
 //app.set("view engine", "ejs");
 
 app.get("/", (req, res) => {
-  res.send({ Hi: "There" });
+  res.send({ bye: "buddy" });
 });
 
 const PORT = process.env.PORT || 5000;
